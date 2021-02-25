@@ -1,6 +1,8 @@
 {
   "item.joesmod.ruby" : "Ruby",
+  "item.joesmod.cannabis_seed" : "Cannabis Seed",
   "block.joesmod.ruby_block" : "Ruby Block",
+  "block.joesmod.ruby_ore_block" : "Ruby Ore",
   "itemGroup.joesmod.general" : "Joe's Mod",
   "itemGroup.joesmod.other" : "Other"
 

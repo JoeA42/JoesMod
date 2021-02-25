@@ -2,6 +2,7 @@ package com.JoeA42.joes.mod;
 
 import com.JoeA42.joes.mod.registry.ModBlocks;
 import com.JoeA42.joes.mod.registry.ModItems;
+import com.JoeA42.joes.mod.registry.ModLootTables;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.block.Blocks;
@@ -49,5 +50,6 @@ public class JoesMod implements ModInitializer {
     public void onInitialize() {
         ModItems.registerItems();
         ModBlocks.registerBlocks();
+        ModLootTables.modifyLootTables();
     }
 }
